@@ -1,6 +1,7 @@
 import React from "react";
 import heroImage from "../../assets/img/homeHero.jpeg";
 import Header from "../Header";
+import Subscribe from "../Subscribe";
 
 
 const Hero = () => {
@@ -16,7 +17,7 @@ const Hero = () => {
           Nectara's community, guides, and psychedelic wellness resources.
         </p>
         
-        
+        <Subscribe />
       </div>
       <div className="w-1/2">
         <img src={heroImage} alt="hero" />

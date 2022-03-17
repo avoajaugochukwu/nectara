@@ -13,7 +13,7 @@ const Header = () => {
   }, [active]);
 
   return (
-    <div>
+    <div className="h-28">
       <div
         className={`hamburger ${active ? "open" : undefined}`}
         onClick={() => setActive(!active)}
