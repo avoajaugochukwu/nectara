@@ -27,10 +27,6 @@
   cursor: pointer;
 }
 
-.hamburger.open {
-  /* right: 55px; */
-}
-
 .hamburger span {
   display: block;
   width: 30px;
@@ -88,13 +84,13 @@
   opacity: 1;
   top: 0;
   height: 100vh;
-  width: 300px;
+  width: 700px;
   background-color: #e35e34;
-  left: -300px;
+  right: -700px;
   transition: all .8s;
   z-index: 10000;
 }
 
 .sidebar.open {
-  left: 0;
+  right: 0;
 }
