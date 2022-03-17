@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./header.css";
+import SideBar from "./SideBar";
 const Header = () => {
   const [active, setActive] = useState(false);
 
@@ -24,8 +25,7 @@ const Header = () => {
         </div>
       </div>
       
-      <div className={`sidebar ${active ? "open" : undefined}`}></div>
-      <div className={`sidebar-wrapper ${active ? "open" : undefined}`}></div>
+      <SideBar active={active} />
     </div>
   );
 };

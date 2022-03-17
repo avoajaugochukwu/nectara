@@ -1,7 +1,7 @@
 import React from "react";
 import heroImage from "../../assets/img/homeHero.jpeg";
-import { Button } from "../../stories/Button";
 import Header from "../Header";
+
 
 const Hero = () => {
   return (
@@ -15,11 +15,7 @@ const Hero = () => {
           you don't have to walk alone. Support your healing journey with
           Nectara's community, guides, and psychedelic wellness resources.
         </p>
-        <p className="mt-10">Stay in touch</p>
-        <div className="mt-4 mb-1">
-          <Button primary label="Subscribe" />
-        </div>
-        <p className="text-xs">We will always respect your privacy</p>
+        
         
       </div>
       <div className="w-1/2">
