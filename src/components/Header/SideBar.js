@@ -25,7 +25,6 @@ const SideBar = ({ active }) => {
             </div>
           </div>
           <img
-            // className="deco-circle-nav-menu"
             className="absolute left-auto top-44 -right-60 sm:-right-48 bottom-auto w-96"
             src={decoCircle}
             alt="yellow circle svg"
