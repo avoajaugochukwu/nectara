@@ -8,7 +8,7 @@ const Subscribe = () => {
       <div className="mt-4 mb-1">
         <Button primary label="Subscribe" />
       </div>
-      <p className="text-xs">We will always respect your privacy</p>
+      <p className="text-[0.5em]">We will always respect your privacy</p>
     </>
   );
 };

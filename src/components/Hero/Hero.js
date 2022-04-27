@@ -8,10 +8,10 @@ const Hero = () => {
   return (
     <>
     <Header />
-    <div className="flex">
-      <div className="w-1/2 m-40">
-        <h1 className="text-7xl font-light mb-5">Every day is a ceremony</h1>
-        <p className="pr-48 font-light leading-7">
+    <div className="flex flex-col sm:flex-row">
+      <div className="w-full sm:w-1/2 p-10 sm:mx-40 sm:mt-10 sm:pr-10">
+        <h1 className="text-6xl mb-5">Every day is a ceremony</h1>
+        <p className="font-light leading-7 sm:pr-32">
           Integrating and preparing for a psychedelic experience is a journey
           you don't have to walk alone. Support your healing journey with
           Nectara's community, guides, and psychedelic wellness resources.
@@ -19,7 +19,7 @@ const Hero = () => {
         
         <Subscribe />
       </div>
-      <div className="w-1/2">
+      <div className="w-full sm:w-1/2">
         <img src={heroImage} alt="hero" />
       </div>
     </div>

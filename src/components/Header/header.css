@@ -29,7 +29,7 @@
 
 .hamburger span {
   display: block;
-  width: 30px;
+  
   height: 2px;
   background-color: #e35e34;
   transition: all .8s;
@@ -37,8 +37,11 @@
 
 .hamburger span:nth-child(1), .hamburger span:nth-child(2) {
   margin-bottom: 7px;
+  width: 30px;
 }
-
+.hamburger span:nth-child(2) {
+  width: 20px;
+}
 .hamburger.open span:nth-child(1) {
   transform: rotate(45deg) translateY(10px);
   width: 42px;
@@ -86,7 +89,7 @@
   top: 0;
   height: 100vh;
   background-color: #e3e1de;
-  transition: all .8s;
+  transition: right .8s;
   z-index: 10000;
 }
 
