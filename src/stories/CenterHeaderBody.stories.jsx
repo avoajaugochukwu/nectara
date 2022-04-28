@@ -25,5 +25,5 @@ Secondary.args = {
   header: "Psychedelic experiences open new doors. Let's walk through them together.",
   body: "Connect with people dedicated to exploring the intentional use of psychedelic medicines, benefit from the community’s collective wisdom and access our curated experiences and resources.",
   buttonText: "Discover out community",
-  primary: true
+  buttonPrimary: true
 }

@@ -9,6 +9,7 @@ export default {
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {
     backgroundColor: { control: 'color' },
+    handleClick: { action: 'clicked' },
   },
 };
 
@@ -20,6 +21,7 @@ export const Primary = Template.bind({});
 Primary.args = {
   primary: true,
   label: 'Button',
+  handleClick: () => console.log('I was clicked')
 };
 
 export const Secondary = Template.bind({});
