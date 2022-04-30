@@ -13,9 +13,21 @@ export default function Home() {
         buttonText="Discover our community"
         backgroundColor="#f2f0ed"
       />
+      {/*  */}
       <div className="bg-[#f2f0ed]">
         <div className="w-3/4 rounded-lg shadow-lg mx-auto ">
           <img src={community_image} alt="community page" />
+        </div>
+      </div>
+      {/*  */}
+      <div className="bg-[#183731]">
+        <div className="my-10 w-3/5 mx-auto py-28 text-[#fff1d8]  text-center font-light">
+          <h2 className="text-2xl">
+            “This community has been a source of connection, contemplation, and
+            a wealth of information. I am constantly blown away by the thought
+            and care that has been placed into it.”
+          </h2>
+          <p className="mt-10">- Vanathy</p>
         </div>
       </div>
     </>
