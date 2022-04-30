@@ -63,7 +63,7 @@
   height: 100%;
 }
 
-.sidebar-wrapper {
+/* .sidebar-wrapper {
   width: 100%;
   height: 100vh;
   position: fixed;
@@ -81,27 +81,34 @@
 .sidebar-wrapper.open {
   opacity: 1;
   display: block;
-}
+} */
 
 .sidebar {
   position: absolute;
   opacity: 1;
   top: 0;
+  left: 110%;
+  height: 100vh;
+  background-color: #e3e1de;
+  transition: left .8s;
+  z-index: 10000;
+}
+
+.sidebar.open {
+  left: 50%;
+}
+
+.mobile-sidebar {
+  position: absolute;
+  opacity: 1;
+  top: 0;
+  right: 110%;
   height: 100vh;
   background-color: #e3e1de;
   transition: right .8s;
   z-index: 10000;
 }
 
-.sidebar.open {
-  right: 0;
-}
-
-.deco-circle-nav-menu {
-  position: absolute;
-  left: auto;
-  top: 8.5rem;
-  right: -13.5rem;
-  bottom: auto;
-  width: 25rem;
+.mobile-sidebar.open {
+  right: 0%;
 }

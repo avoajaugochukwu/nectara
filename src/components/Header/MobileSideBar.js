@@ -3,12 +3,12 @@ import decoCircle from "../../assets/img/deco-circle.svg";
 import Subscribe from "../Subscribe";
 import Link from "./Link";
 
-const SideBar = ({ active }) => {
+const MobileSideBar = ({ active }) => {
   return (
-    <div className="hidden sm:block">
+    <div className="block sm:hidden">
       {/* <div className={`sidebar-wrapper ${active ? "open" : 'closed'}`} /> */}
       <div
-        className={`sidebar w-full  sm:w-1/2 ${
+        className={`mobile-sidebar w-full  sm:w-1/2 ${
           active ? "open" : 'closed'
         }`}
       >
@@ -25,7 +25,7 @@ const SideBar = ({ active }) => {
             </div>
           </div>
           <img
-            className="absolute top-44 -right-60 sm:-right-48 bottom-auto w-96 overflow-hidden -z-50"
+            className="absolute top-44 right-60 sm:right-48 bottom-auto w-96 overflow-hidden -z-50"
             src={decoCircle}
             alt="yellow circle svg"
           />
@@ -35,4 +35,4 @@ const SideBar = ({ active }) => {
   );
 };
 
-export default SideBar;
+export default MobileSideBar;

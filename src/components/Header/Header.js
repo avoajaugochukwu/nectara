@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./header.css";
 import SideBar from "./SideBar";
 import logo from '../../assets/img/logo.svg'
+import MobileSideBar from "./MobileSideBar";
 
 const Header = () => {
   const [active, setActive] = useState(false);
@@ -31,6 +32,7 @@ const Header = () => {
       </div>
       
       <SideBar active={active} />
+      <MobileSideBar active={active} />
     </div>
   );
 };
