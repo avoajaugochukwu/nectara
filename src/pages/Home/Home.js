@@ -4,6 +4,7 @@ import community_image from "../../assets/img/624158d31bc646692326490d_Nectara-c
 import Events from "./Events";
 import Guides from "./Guides";
 import Contribute from "./Contribute";
+import Faq from "./Faq";
 
 export default function Home() {
   return (
@@ -36,6 +37,7 @@ export default function Home() {
       <Events />
       <Guides />
       <Contribute />
+      <Faq />
     </>
   );
 }
