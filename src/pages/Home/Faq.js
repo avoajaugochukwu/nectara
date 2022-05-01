@@ -2,14 +2,14 @@ import React from "react";
 
 const Faq = () => {
   return (
-    <div className="px-48 py-28 bg-[#44403b]">
-      <div className="flex">
-        <div className="w-1/2">
-          <p className="text-5xl text-[#fff1d8]">Frequently asked questions</p>
+    <div className="px-6 sm:px-48 py-10 sm:py-28 bg-[#44403b]">
+      <div className="sm:flex">
+        <div className="w-full sm:w-1/2 pb-10">
+          <p className="text-4xl sm:text-5xl text-[#fff1d8]">Frequently asked questions</p>
         </div>
         {/* --------------------------------- */}
-        <div className="w-1/2">
-          <div className="flex gap-x-8 w-11/12 mb-12">
+        <div className="w-full sm:w-1/2">
+          <div className="flex gap-x-8 w-full sm:w-11/12 mb-12">
             <div>
               <p className="text-[#fff1d8]">01</p>
             </div>

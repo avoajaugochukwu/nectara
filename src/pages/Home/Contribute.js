@@ -6,12 +6,12 @@ const Contribute = () => {
   return (
     <div className="relative overflow-hidden bg-[#f6f5f3]">
       <img
-        className="absolute -left-16 top-20 w-3/12 "
+        className="m-10 sm:absolute sm:-left-16 sm:top-20 w-3/12 "
         src={four_circles}
         alt="Four circle"
       />
 
-      <div className="w-1/3 mx-auto py-24">
+      <div className="w-full sm:w-1/3 px-10 sm:mx-auto py-12 sm:py-24">
         <p className=" font-extralight pb-4">Our vision</p>
         <p className="text-4xl pb-10">Contribute to a new paradigm with us</p>
         <p>

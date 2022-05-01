@@ -13,7 +13,7 @@ const MobileSideBar = ({ active }) => {
         }`}
       >
         <div className="flex relative">
-          <div className="mt-32 ml-8">
+          <div className="mt-16 ml-8">
             <Link isActive link={"home"} />
             <Link isActive={false} link={"community"} />
             <Link isActive={false} link={"experiences"} />
